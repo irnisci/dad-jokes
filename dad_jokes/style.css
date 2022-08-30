@@ -1,0 +1,47 @@
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: #686de0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  padding: 20px;
+}
+.container {
+  background-color: #fff;
+  width: 800px;
+  padding: 50px 30px;
+  text-align: center;
+  border-radius: 20px;
+  max-width: 100%;
+}
+h3 {
+  opacity: 0.5;
+  letter-spacing: 1px;
+  margin: 0;
+}
+.joke {
+  font-size: 1.5rem;
+  max-width: 600px;
+  margin: 50px auto;
+}
+.btn {
+  font-size: 1.2rem;
+  padding: 15px;
+  width: 200px;
+  border-radius: 10px;
+  border: 0;
+  background-color: #9f68e0;
+  color: #fff;
+  box-shadow: 0.2rem 0.4rem 0.8rem rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.btn:active {
+  transform: scale(0.98);
+}
